@@ -1,13 +1,171 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 100px 0;
 }
+
+.logo{
+  width: 80%;
+  margin-top: 10px;
+}
+
+.nav_item{
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.nav_item li{
+  margin: 0 50px;
+  color: #bc906f;
+  font-size: 1.3rem;
+}
+
+/* Main Section */
+.main_container{
+  display: flex;
+  padding: 80px 50px 0;
+}
+
+.main_text{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.main_text h1, .about_text h1{
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.main_text h3{
+  color: #bc906f;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.main_text p{
+  width: 80%;
+  font-size: 0.9rem;
+}
+
+.main_btn{
+  padding-top: 20px;
+}
+
+.btn1, .btn2{
+  text-transform: capitalize;
+  padding: 10px 15px;
+}
+.btn1{
+  background: #bc906f;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.btn1:hover{
+  background: #fff;
+  color: #bc906f;
+  border-style: solid;
+  border-color: #bc906f;
+}
+
+.btn2{
+  margin-left: 10px;
+  outline: none;
+  background: #fff;
+  color: #bc906f;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #bc906f;
+}
+
+.btn2:hover{
+  background: #bc906f;
+  color: #fff;
+  border: none;
+}
+
+.main_img{
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.main_img img{
+  width: 450px;
+}
+
+/* About Section */
+.about_container{
+  display: flex;
+  padding: 80px 50px 0;
+}
+
+.about_img{
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.about_img img{
+  width: 350px;
+}
+
+.about_text{
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.about_text button{
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+/* Cards Section */
+.cards_container{
+  margin-top: 130px;
+}
+
+/* .card_text{
+  text-align: center;
+  text-transform: capitalize;
+} */
+
+/* .card_items{
+  display: flex;
+  /* padding: 50px 100px 0; *
+} */
+
+/* .card_cover{
+  width: 260px;
+  height: 100%;
+  padding: 20px 40px 25px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+} */
+
+/* .card_img{
+  width: 40px;
+  margin-top: 10px;
+  color: #bc906f;
+} */
+
+/* .cards h3{
+  color: #bc906f;
+  font-size: 1.3rem;
+} */
