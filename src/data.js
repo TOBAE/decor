@@ -5,7 +5,7 @@ import Rectangle4 from './images/Rectangle 4.png'
 import Rectangle6 from './images/Rectangle 6.png'
 
 export const card = {
-  heading: "Why  You Should Choose Us ",
+  heading: "Why You Should Choose Us ",
   items: [
     {
       icon: <MdOutlineChair />,
@@ -28,5 +28,5 @@ export const card = {
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus, vestibulum, mattis sit nulla tempor. Morbi nibh in nisi, ut egestas tellus sed.",
     },
-  ],
+  ]
 };

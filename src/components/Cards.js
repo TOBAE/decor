@@ -7,7 +7,7 @@ export default function Cards() {
     return(
         <section>
             <h1>{ heading}</h1>
-            <div className='card1'>
+            <div>
                 {items.map((item, index) => {
                     // destructuring
                     const { title, subtitle, icon, image } = item;
