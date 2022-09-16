@@ -169,3 +169,6 @@ body {
   color: #bc906f;
   font-size: 1.3rem;
 } */
+.card1 {
+  display: flex;
+}
